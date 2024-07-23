@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</head>
+<body>
+    <h2>SET  TIME</h2>
+    <div>
+        <label for="set-hours">Hours:</label>
+        <input type="number" id="set-hours" min="0" max="23" value="0">
+        
+        <label for="set-minutes">Minutes:</label>
+        <input type="number" id="set-minutes" min="0" max="59" value="0">
+        
+        <label for="set-seconds">Seconds:</label>
+        <input type="number" id="set-seconds" min="0" max="59" value="0">
+        
+        <button id="set-time">Set Time</button>
+    </div>
+    
+    <div id="clockcontainer">
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+    </div>
+</body>
+</html>
