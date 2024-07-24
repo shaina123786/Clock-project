@@ -17,6 +17,7 @@
     width: 40vw;
     background: url('clock\ image.jpg')no-repeat;
     background-size: 100%;
+    bottom: 23.5px;
 }
 #hour,#minute,#second{
     position: absolute;
